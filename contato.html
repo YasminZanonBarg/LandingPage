@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Um bot que irá moderar e deixar sua comunidade segura de um jeito fácil">
     <title>Balle Bot - Modere a sua comunidade do Discord</title>
-    <link rel="icon" href=img/logo.png>
+    <link rel="icon" href="img/logo.png">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
     <header class="cabecalho">
         <a href="index.html">
-            <img class="cabecalho-imagem" src= img/logo.png alt= "Logo da comunidade Ballerini">
+            <img class="cabecalho-imagem" src="img/logo.png" alt="Logo da comunidade Ballerini">
         </a>
         <nav class="cabecalho-menu">
             <a class="cabecalho-menu-itens" href="https://discord.gg/wagxzStdcR" target="_blank">Comunidade Ballerini</a>
@@ -25,16 +25,53 @@
     
     <main class="conteudo">
         <section class="conteudo-principal">
+            <div class="conteudo-principal-escrito">
+                <h1 class="conteudo-principal-escrito-titulo">Fale Conosco</h1>
+                <p class="conteudo-principal-escrito-subtitulo">Tem alguma dúvida ou sugestão? Preencha o formulário abaixo, e entraremos em contato o mais breve possível!</p>
+                
+                <form action="enviar-contato.php" method="post" class="form">
+                    <fieldset class="grupo">
+                        <div class="campo">
+                            <label for="nome">Seu Nome:</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+                        <div class="campo">
+                            <label for="email">Seu E-mail:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </fieldset>
 
+                    <fieldset class="grupo">
+                        <div class="campo">
+                            <label for="assunto">Assunto:</label>
+                            <input type="text" id="assunto" name="assunto" required>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <div class="campo">
+                            <label for="mensagem">Mensagem:</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                        </div>
+                    </fieldset>
+
+                    <button type="submit" class="botao">Enviar</button>
+                </form>
+            </div>
         </section>
- 
-        <section class="conteudo-secundario">
 
+        <section class="conteudo-secundario">
+            <h2 class="conteudo-secundario-titulo">Outras Formas de Contato</h2>
+            <p class="conteudo-secundario-paragrafo">Você também pode nos contatar através das nossas redes sociais ou pelo nosso servidor no Discord:</p>
+            <ul>
+                <li><a href="https://discord.gg/wagxzStdcR" target="_blank">Servidor no Discord</a></li>
+                <li><a href="mailto:suporte@ballebot.com">E-mail: suporte@ballebot.com</a></li>
+            </ul>
         </section>
     </main>
 
     <footer class="rodape">
-        <img class="rodape-imagem" src= img/ballerini.png alt= "Imagem escrita Ballerini">
+        <img class="rodape-imagem" src="img/ballerini.png" alt="Imagem escrita Ballerini">
     </footer>
 </body>
 
