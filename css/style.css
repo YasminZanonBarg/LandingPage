@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap");
 /* O "*" seleciona todas as tags
 e dentro dele iremos colocar um código para apagar todas as pré- configurações */
 * {
@@ -10,7 +10,7 @@ e dentro dele iremos colocar um código para apagar todas as pré- configuraçõ
 
 body {
   font-size: 100%;
-  background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+  background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%);
 }
 
 .cabecalho {
@@ -31,15 +31,15 @@ body {
 }
 
 .cabecalho-menu-itens {
-  font-family: 'Sarala', sans-serif;
-  color: #FFF2E7;
+  font-family: "Sarala", sans-serif;
+  color: #fff2e7;
   font-weight: 400;
   font-size: 18px;
 }
 
 .conteudo {
   margin-bottom: 48px;
-  border-top: 0.4px solid #FFF2E7
+  border-top: 0.4px solid #fff2e7;
 }
 
 .conteudo-principal {
@@ -56,28 +56,28 @@ body {
 }
 
 .conteudo-principal-escrito-titulo {
-  font-family: 'Righteous', cursive;
-  color: #FFF2E7;
+  font-family: "Righteous", cursive;
+  color: #fff2e7;
   font-weight: 400;
   font-size: 64px;
 }
 
 .conteudo-principal-escrito-subtitulo {
-  font-family: 'Sarala', sans-serif;
-  color: #ECD6C4;
+  font-family: "Sarala", sans-serif;
+  color: #ecd6c4;
   font-weight: 400;
   font-size: 24px;
 }
 
 .conteudo-principal-escrito-botao {
-  background-color: #ECD6C4;
+  background-color: #ecd6c4;
   width: 180px;
   height: 60px;
   border: none;
   box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
-  font-family: 'Sarala', sans-serif;
-  color: #2F2325;
+  font-family: "Sarala", sans-serif;
+  color: #2f2325;
   font-weight: 400;
   font-size: 24px;
 }
@@ -99,25 +99,25 @@ body {
 }
 
 .conteudo-secundario-titulo {
-  border-top: 0.4px solid #FFF2E7;
+  border-top: 0.4px solid #fff2e7;
   padding-top: 48px;
-  font-family: 'Righteous', cursive;
+  font-family: "Righteous", cursive;
   font-weight: 400;
   font-size: 24px;
-  color: #FFF2EF;
+  color: #fff2ef;
   margin-bottom: 16px;
 }
 
 .conteudo-secundario-paragrafo {
-  font-family: 'Sarala', sans-serif;
+  font-family: "Sarala", sans-serif;
   font-weight: 300;
   font-size: 18px;
-  color: #ECD6C4;
+  color: #ecd6c4;
 }
 
 .rodape {
-    padding: 32px;
-    border-top: 0.4px solid #FFF2E7;
+  padding: 32px;
+  border-top: 0.4px solid #fff2e7;
 }
 
 .rodape-imagem {
@@ -129,31 +129,34 @@ body {
 /* Elementos com o ID "titulo" */
 #titulo {
   font-family: sans-serif;
-  color: #ECD6C4;
+  color: #ecd6c4;
   margin-bottom: 1rem;
-} 
+}
 
-#check{
+#check {
   display: inline-block;
 }
 
 #check label {
-  color: #ECD6C4;
+  color: #ecd6c4;
 }
-
 
 fieldset {
   border: 0;
 }
 
-input, select, textarea, button {
+input,
+select,
+textarea,
+button {
   font-family: sans-serif;
   font-size: 1em;
   color: #59429d;
   border-radius: 5px;
 }
 
-.grupo:before, .grupo:after {
+.grupo:before,
+.grupo:after {
   display: table;
 }
 
@@ -167,19 +170,22 @@ input, select, textarea, button {
 
 .campo label {
   margin-bottom: 0.2em;
-  color: #ECD6C4;
+  color: #ecd6c4;
   display: block;
 }
 
 fieldset.grupo .campo {
-  float:  left;
+  float: left;
   margin-right: 1em;
 }
 
-.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+.campo input[type="text"],
+.campo input[type="email"],
+.campo select,
+.campo textarea {
   padding: 0.2em;
-  border: 1px solid #FFF2EF;
-  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  border: 1px solid #fff2ef;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
   display: block;
 }
 
@@ -187,8 +193,10 @@ fieldset.grupo .campo {
   padding-right: 1em;
 }
 
-.campo input:focus, .campo select:focus, .campo textarea:focus {
-  background: #FFF2EF;
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+  background: #fff2ef;
 }
 
 .botao {
@@ -198,17 +206,18 @@ fieldset.grupo .campo {
   margin-bottom: 2em;
   color: #ffffff;
   padding: 0.2em 0.6em;
-  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .botao:hover {
-  background: #CCBBFF;
-  box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+  background: #ccbbff;
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
   text-shadow: none;
 }
 
-.botao, select{
+.botao,
+select {
   cursor: pointer;
 }
 
